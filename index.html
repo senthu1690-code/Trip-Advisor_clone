@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripAdvisor - Hotels, Flights, Restaurants</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-top">
+      <a href="#" class="logo">
+        <span class="logo-icon">&#9679;</span>
+        TripAdvisor
+      </a>
+
+      <div class="header-search">
+        <input type="text" placeholder="Search destinations, hotels, restaurants...">
+        <button type="button">Search</button>
+      </div>
+
+      <nav class="header-nav">
+        <a href="#">Hotels</a>
+        <a href="#">Flights</a>
+        <a href="#">Restaurants</a>
+      </nav>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Hotels</a></li>
+        <li><a href="#">Restaurants</a></li>
+        <li><a href="#">Activities</a></li>
+        <li><a href="#">Forums</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Search Section -->
+    <section class="search-section">
+      <h1>Where to?</h1>
+      <p>Find the best places to visit, stay, and eat around the world.</p>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search cities or destinations...">
+        <button type="button">Search</button>
+      </div>
+
+      <div class="filters">
+        <label>
+          Price Range:
+          <select>
+            <option>Any Price</option>
+            <option>$ Budget</option>
+            <option>$$ Moderate</option>
+            <option>$$$ Expensive</option>
+          </select>
+        </label>
+
+        <label>
+          Rating:
+          <select>
+            <option>Any Rating</option>
+            <option>4+ Stars</option>
+            <option>3+ Stars</option>
+            <option>2+ Stars</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section class="content-section">
+      <h2>Featured Destinations</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img src="images/paris.jpg" alt="Paris">
+          <div class="card-body">
+            <h3>Paris, France</h3>
+            <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; <span>5.0</span></div>
+            <p>The City of Light offers iconic landmarks, world-class cuisine, and romantic charm.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/tokyo.jpg" alt="Tokyo">
+          <div class="card-body">
+            <h3>Tokyo, Japan</h3>
+            <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734; <span>4.8</span></div>
+            <p>A vibrant blend of ancient tradition and cutting-edge modern culture.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/london.jpg" alt="London">
+          <div class="card-body">
+            <h3>London, UK</h3>
+            <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734; <span>4.7</span></div>
+            <p>Historic landmarks, diverse neighborhoods, and a thriving arts scene.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Popular Hotels -->
+    <section class="content-section">
+      <h2>Popular Hotels</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img src="images/grand-hotel.jpg" alt="Grand Hotel">
+          <div class="card-body">
+            <h3>Grand Palace Hotel</h3>
+            <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; <span>4.9</span></div>
+            <p>Luxury accommodations with stunning city views and fine dining.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/beach-resort.jpg" alt="Beach Resort">
+          <div class="card-body">
+            <h3>Oceanview Resort</h3>
+            <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734; <span>4.6</span></div>
+            <p>Beachfront paradise with private pools and spa services.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/boutique-hotel.jpg" alt="Boutique Hotel">
+          <div class="card-body">
+            <h3>City Center Boutique</h3>
+            <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734; <span>4.5</span></div>
+            <p>Stylish rooms in the heart of downtown with rooftop bar.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Top-Rated Restaurants -->
+    <section class="content-section">
+      <h2>Top-Rated Restaurants</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img src="images/fine-dining.jpg" alt="Fine Dining">
+          <div class="card-body">
+            <h3>Le Gourmet</h3>
+            <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; <span>5.0</span></div>
+            <p>Michelin-starred French cuisine in an elegant setting.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/seafood.jpg" alt="Seafood">
+          <div class="card-body">
+            <h3>Harbor Seafood Grill</h3>
+            <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734; <span>4.7</span></div>
+            <p>Fresh catch daily with waterfront dining experience.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/italian.jpg" alt="Italian Restaurant">
+          <div class="card-body">
+            <h3>Bella Italia</h3>
+            <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734; <span>4.6</span></div>
+            <p>Authentic Italian dishes made with family recipes.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>About TripAdvisor</h4>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#">Write a Review</a>
+        <a href="#">Add a Place</a>
+        <a href="#">Travel Guides</a>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2026 TripAdvisor Clone. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
